@@ -18,17 +18,18 @@ public class ConditionalStatement{
         //     System.out.println("tapai hajurbaba hununxa");
         // }
         // System.out.println("tapai manche chai hununxa ");
-        System.out.println("enter our age:");
-        int number = scr.nextInt();
-        if (number<=18){
-            System.out.println("you are minor");
-        }
-        else if (number>=18 && number<=65){
-            System.out.println("you are adult");
-        }
-        else{
-            System.out.println("you are suddo");
-        }
+        // System.out.println("enter our age:");
+        // int number = scr.nextInt();
+        // if (number<=18){
+        //     System.out.println("you are minor");
+        // }
+        // else if (number>=18 && number<=65){
+        //     System.out.println("you are adult");
+        // }
+        // else{
+        //     System.out.println("you are suddo");
+        // }
+        
 
         scr.close();
         int ad=add(5,10);
