@@ -5,7 +5,7 @@ public class WeekThree {
         Scanner number=new Scanner(System.in);
         System.out.println("enter first number");
         int first_number=number.nextInt();
-        // System.out.println("enter second number");
+        // System.out.ssprintln("enter second number");
         // int second_number=number.nextInt();
         // System.out.println("enter third number");
         // int third_number=number.nextInt();
