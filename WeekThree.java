@@ -9,7 +9,7 @@ public class WeekThree {
         int second_number=number.nextInt();
         System.out.println("enter third number");
         int third_number=number.nextInt();
-        if(first_number>second_number && first_number>third_number){ d
+        if(first_number>second_number && first_number>third_number){  
             System.out.println(first_number+"is maximum between "+second_number+" , "+third_number+"and"+first_number);
         }
         else if(second_number>first_number && second_number>third_number){
