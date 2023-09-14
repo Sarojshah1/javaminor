@@ -5,19 +5,19 @@ public class WeekThree {
         Scanner number=new Scanner(System.in);
         System.out.println("enter first number");
         int first_number=number.nextInt();
-        // System.out.ssprintln("enter second number");
-        // int second_number=number.nextInt();
-        // System.out.println("enter third number");
-        // int third_number=number.nextInt();
-        // if(first_number>second_number && first_number>third_number){
-        //     System.out.println(first_number+"is maximum between "+second_number+" , "+third_number+"and"+first_number);
-        // }
-        // else if(second_number>first_number && second_number>third_number){
-        //     System.out.println(second_number+"is maximum between "+first_number+","+second_number+" and "+third_number);
-        // }
-        // else{
-        //     System.out.println(third_number+"is maximum between "+second_number+" and "+first_number);
-        // }
+        System.out.println("enter second number");
+        int second_number=number.nextInt();
+        System.out.println("enter third number");
+        int third_number=number.nextInt();
+        if(first_number>second_number && first_number>third_number){ d
+            System.out.println(first_number+"is maximum between "+second_number+" , "+third_number+"and"+first_number);
+        }
+        else if(second_number>first_number && second_number>third_number){
+            System.out.println(second_number+"is maximum between "+first_number+","+second_number+" and "+third_number);
+        }
+        else{
+            System.out.println(third_number+"is maximum between "+second_number+" and "+first_number);
+        }
 
 
         // 2. Write a JAVA program to check whether a number is negative, positive, or zero.
