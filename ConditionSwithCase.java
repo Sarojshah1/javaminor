@@ -5,6 +5,10 @@ public class ConditionSwithCase {
             case 10:
                 System.out.println("Expected");
                 break;
+            case 20:
+                System.out.println(" not Expected");
+                break;
+
             }
 
         
