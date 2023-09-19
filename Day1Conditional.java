@@ -23,7 +23,7 @@ public class Day1Conditional {
         else if(marks<30){
             System.out.println("Student is poor");
         }
-        else{
+        else if (marks>30 && marks<95){
             System.out.println("student is average");
         }
         sc.close();
