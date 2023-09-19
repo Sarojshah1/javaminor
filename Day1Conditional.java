@@ -25,6 +25,15 @@ public class Day1Conditional {
         }
         else if (marks>30 && marks<95){
             System.out.println("student is average");
+            if(marks<60){
+                System.out.println("Student is second div");
+            }
+            else if(marks<40){
+                System.out.println("Student is third div");
+            }
+            else{
+                System.out.println("Student is first div");
+            }
         }
         sc.close();
     }
