@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 
 public class LoopForOdd {
     public static void main(String[] args) {
