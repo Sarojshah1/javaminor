@@ -3,11 +3,20 @@ public class JavaMethods {
         return a+b;
 
     }
+    @overload
+    public double add(double a, double b){
+        System.out.println("i am double");
+        return a+b;
+    }
     public static void main(String[] args) {
-        int b;
+        double b;
+        int c;
         JavaMethods java = new JavaMethods();
-        b=java.add(10,20);
+        c=java.add(10,20);
+        b=java.add(10.1, 20.2);
+
         System.out.println(b);
+        System.out.println(c);
     
     }
     
