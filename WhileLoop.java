@@ -26,7 +26,7 @@ public class WhileLoop {
             }
             System.out.println(i+" number is even");
         
-        }
+        } 
         
     }
     
